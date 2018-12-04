@@ -15,6 +15,13 @@ class API < Sinatra::Base
   # This is the endpoint Slack will post Event data to.
   post '/events' do
   end
+
+  # get message from slack to be converted as text to speech
+  get '/create_message' do
+  end
+
+  post '/upload_speech' do
+  end
 end
 
 
